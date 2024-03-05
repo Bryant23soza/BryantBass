@@ -22,7 +22,7 @@
       href="imgs/logos/favicon-16x16.png"
     />
     <link rel="manifest" href="imgs/logos/site.webmanifest" />
-    <link rel="stylesheet" href="nort.css" />
+    <link rel="stylesheet" href="about.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -37,7 +37,7 @@
   <body>
     <header class="navbar">
       <nav class="navbar-container">
-        <img class="navbar-logo" src="imgs/bryantlogo.png" />
+        <img class="navbar-logo" src="/public/imgs/bryantlogo.png" />
         <div class="navbar-toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -51,67 +51,26 @@
             <a href="contact.html" class="navbar-links">Contact</a>
           </li>
           <li class="navbar-btn">
-            <a href="#" class="button">Start Course</a>
+            <a href="corridos.html" class="button">Start Course</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <div class="main">
-      <h3 class="heading">Adornos Nortenos</h3>
-      <div class="main_container">
-        <div class="main_video">
-          <video
-            src="imgs/videos/homevid.mov"
-            width="200px"
-            controls
-            muted
-            autoplay
-          ></video>
-          <h3 class="title">01. Mi Bello Angel</h3>
+    <div class="main-content-container">
+      <div class="responseive-content">
+        <div class="main-text-container">
+          <h1 class="pri-header-text">Hello, Im Bryant</h1>
+          <h1 class="pri-header-text">bassist/coder</h1>
+          <p class="pri-text-text">
+            Im a self-taught Front-End Web Developer that had a plan to make a
+            simple website to help beginner bass players exceed in bass! Im a
+            experienced bass player with over 7 years of experience. Im looking
+            to help beginner bass players become better at bass.
+          </p>
         </div>
-
-        <div class="video_list">
-          <div class="vid active">
-            <video src="#" width="200px" muted></video>
-            <h3 class="title">01. Mi Bello Angel</h3>
-          </div>
-          <div class="vid">
-            <video src="#" width="200px" muted></video>
-            <h3 class="title">02. En El Cielo o En El Infierno</h3>
-          </div>
-          <div class="vid">
-            <video src="#" width="200px" muted></video>
-            <h3 class="title">03. Si Fuera Fácil</h3>
-          </div>
-          <div class="vid">
-            <video src="#" width="200px" muted></video>
-            <h3 class="title">04. Viene Amaneciendo</h3>
-          </div>
-          <div class="vid">
-            <video src="#" width="200px" muted></video>
-            <h3 class="title">05. vidoe title goes here</h3>
-          </div>
-          <div class="vid">
-            <video src="#" width="200px" muted></video>
-            <h3 class="title">06. vidoe title goes here</h3>
-          </div>
-          <div class="vid">
-            <video src="#" width="200px" muted></video>
-            <h3 class="title">07. vidoe title goes here</h3>
-          </div>
-          <div class="vid">
-            <video src="#" width="200px" muted></video>
-            <h3 class="title">08. vidoe title goes here</h3>
-          </div>
-          <div class="vid">
-            <video src="#" width="200px" muted></video>
-            <h3 class="title">09. vidoe title goes here</h3>
-          </div>
-          <div class="vid">
-            <video src="#" width="200px" muted></video>
-            <h3 class="title">10. vidoe title goes here</h3>
-          </div>
+        <div class="main-pic-container">
+          <img src="/public/imgs/basspic.jpg" width="400px" />
         </div>
       </div>
     </div>
@@ -154,14 +113,13 @@
     </footer>
 
     <script src="app.js"></script>
-    <script src="firebase.js"></script>
-    <script>
-      type = "module";
-      src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js";
-    </script>
-    <script>
-      nomodule;
-      src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js";
-    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

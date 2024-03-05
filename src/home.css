@@ -225,7 +225,7 @@ html {
       rgb(0, 0, 0, 0.5),
       rgb(0, 0, 0, 0.5)
     ),
-    url("imgs/probassplayer.jpg");
+    url("/public/imgs/probassplayer.jpg");
   background-size: cover;
   background-position: center;
   background-color: #202124;
