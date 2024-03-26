@@ -615,7 +615,8 @@ html {
 
 .course-img {
   height: 200px;
-  border-radius: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .course-dev {
