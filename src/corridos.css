@@ -260,7 +260,7 @@ html {
 .main_container .video_list {
   background: #fff;
   border-radius: 5px;
-  height: 650px;
+  height: 94%;
   overflow-y: scroll;
 }
 
@@ -338,7 +338,7 @@ html {
   }
 
   .main_container .video_list {
-    height: 450px;
+    height: 94%;
   }
 }
   

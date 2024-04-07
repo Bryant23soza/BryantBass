@@ -260,7 +260,7 @@
   .main_container .video_list {
     background: #fff;
     border-radius: 5px;
-    height: 670px;
+    height: 94%;
     overflow-y: scroll;
   }
   
@@ -335,6 +335,10 @@
   @media screen and (max-width: 475px) {
     .heading {
       font-size: 23px;
+    }
+
+    .main_container .video_list {
+      height: 94%;
     }
   }
   
