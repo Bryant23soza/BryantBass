@@ -309,6 +309,15 @@ html {
   transition: all 0.35s;
 }
 
+@media screen and (max-width: 475px) {
+  #hero {
+    height: 75vh;
+  }
+  .main_content h1 {
+    font-size: 2rem;
+  }
+}
+
 /* Footer */
 
 .border {

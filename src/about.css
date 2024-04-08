@@ -286,17 +286,7 @@ html {
 
 @media screen and (max-width: 475px) {
   .pri-header-text {
-    font-size: 2rem;
-  }
-
-  .pri-text-text {
-    font-size: 1.3rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .pri-header-text {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .pri-text-text {
