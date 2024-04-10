@@ -670,6 +670,9 @@ html {
 }
 
 @media screen and (max-width: 1366px) {
+  .course-main {
+    height: 130vh;
+  }
   .course-header-content-first {
     font-size: 2.3rem;
   }
