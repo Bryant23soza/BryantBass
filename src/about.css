@@ -261,6 +261,9 @@ html {
 }
 
 @media screen and (max-width: 1366px) {
+  .main-text-container {
+    max-width: 450px;
+  }
   .pri-header-text {
     font-size: 3rem;
   }

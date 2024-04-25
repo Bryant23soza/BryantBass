@@ -224,7 +224,7 @@ html {
 }
 
 .heading {
-  font-size: 40px;
+  font-size: 2.5rem;
   text-align: center;
   padding: 10px;
   color: #fff;
@@ -310,6 +310,14 @@ html {
 .main_container .video_list .vid .title {
   color: #333;
   font-size: 17px;
+}
+
+@media screen and (max-width: 1366px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  
 }
 
 @media screen and (max-width: 991px) {
