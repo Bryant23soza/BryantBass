@@ -311,6 +311,16 @@
     color: #333;
     font-size: 17px;
   }
+
+  @media screen and (max-width: 1366px) {
+    .main {
+      height: 110vh;
+    }
+  
+    .heading {
+      font-size: 2rem;
+    }
+  }
   
   @media screen and (max-width: 991px) {
     .main_container {
