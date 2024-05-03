@@ -225,7 +225,7 @@ html {
       rgb(0, 0, 0, 0.5),
       rgb(0, 0, 0, 0.5)
     ),
-    url("/public/imgs/probassplayer.jpg");
+    url("/public/imgs/bryantbass.jpg");
   background-size: cover;
   background-position: center;
   background-color: #202124;
@@ -903,7 +903,7 @@ html {
 @media screen and (max-width: 1024px) {
   .infor-main-one,
   .infor-main-two {
-    height: 75vh;
+    height: 80vh;
   }
   .info-container-one {
     display: flex;
@@ -971,6 +971,13 @@ html {
 }
 
 @media screen and (max-width: 475px) {
+
+  .info-container-one{
+    gap: 10px;
+  }
+  .info-container-two{
+    gap: 10px;
+  }
   .primary-infor-header-one {
     font-size: 1.6rem;
   }
