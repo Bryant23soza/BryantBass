@@ -222,8 +222,8 @@ html {
 .main {
   background-image: linear-gradient(
       to bottom,
-      rgb(0, 0, 0, 0.5),
-      rgb(0, 0, 0, 0.5)
+      rgb(0, 0, 0, 0.8),
+      rgb(0, 0, 0, 0.6)
     ),
     url("/public/imgs/bryantbass.jpg");
   background-size: cover;
@@ -484,6 +484,9 @@ html {
 }
 
 @media screen and (max-width: 1366px) {
+  .video-section-container {
+    height: 120vh;
+  }
   .main-video-content {
     max-width: 1024px;
   }
@@ -780,8 +783,12 @@ html {
 
 
 @media screen and (max-width: 1366px) {
+  .infor-main-one {
+    height: 75vh;
+  }
   .primary-infor-header-one {
     font-size: 2.4rem;
+    height: 23vh;
   }
 
   .primary-infor-header {
@@ -872,6 +879,9 @@ html {
 }
 
 @media screen and (max-width: 1366px) {
+  .infor-main-two {
+    height: 70vh;
+  }
   .primary-infor-header-two {
     font-size: 2.4rem;
   }
