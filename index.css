@@ -487,6 +487,10 @@ html {
   .video-section-container {
     height: 140vh;
   }
+
+  .primary-video-header {
+    font-size: 3.2rem;
+  }
 }
 
 @media screen and (max-width: 1366px) {
@@ -822,7 +826,7 @@ html {
     align-items: center;
     gap: 8rem;
   }
-  
+
   .infor-content-one {
     width: 440px;
   }
@@ -923,7 +927,7 @@ html {
     align-items: center;
     gap: 8rem;
   }
-  
+
   .infor-content-two {
     width: 440px;
   }
@@ -1004,11 +1008,10 @@ html {
 }
 
 @media screen and (max-width: 475px) {
-
-  .info-container-one{
+  .info-container-one {
     gap: 10px;
   }
-  .info-container-two{
+  .info-container-two {
     gap: 10px;
   }
   .primary-infor-header-one {
