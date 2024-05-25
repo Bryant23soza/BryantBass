@@ -312,7 +312,7 @@
     font-size: 17px;
   }
 
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1920px) {
     .main {
       height: 110vh;
     }

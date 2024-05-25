@@ -483,6 +483,12 @@ html {
   max-width: 800px;
 }
 
+@media screen and (max-width: 1920px) {
+  .video-section-container {
+    height: 140vh;
+  }
+}
+
 @media screen and (max-width: 1366px) {
   .video-section-container {
     height: 120vh;
@@ -672,9 +678,15 @@ html {
   background-color: #de0600;
 }
 
-@media screen and (max-width: 1366px) {
+/* @media screen and (max-width: 1920px) {
   .course-main {
-    height: 130vh;
+    height: 125vh;
+  }
+}  */
+
+@media screen and (max-width: 1920px) {
+  .course-main {
+    height: 125vh;
   }
   .course-header-content-first {
     font-size: 2.3rem;
@@ -781,6 +793,11 @@ html {
   height: 300px;
 }
 
+@media screen and (max-width: 1920px) {
+  .infor-main-one {
+    height: 80vh;
+  }
+}
 
 @media screen and (max-width: 1366px) {
   .infor-main-one {
@@ -876,6 +893,12 @@ html {
 .infor-img-two img {
   border-radius: 10px;
   height: 300px;
+}
+
+@media screen and (max-width: 1920px) {
+  .infor-main-two {
+    height: 80vh;
+  }
 }
 
 @media screen and (max-width: 1366px) {
