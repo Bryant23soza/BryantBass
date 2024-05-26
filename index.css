@@ -1025,6 +1025,7 @@ html {
   .primary-infor-text {
     max-width: 320px;
     font-size: 1rem;
+    margin: 0 auto;
   }
 
   .infor-img-one img {
