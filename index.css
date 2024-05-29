@@ -699,7 +699,7 @@ html {
 
 @media screen and (max-width: 1024px) {
   .course-main {
-    height: 160vh;
+    height: 200vh;
   }
 
   .course-container {
@@ -940,7 +940,7 @@ html {
 @media screen and (max-width: 1024px) {
   .infor-main-one,
   .infor-main-two {
-    height: 80vh;
+    height: 120vh;
   }
   .info-container-one {
     display: flex;
