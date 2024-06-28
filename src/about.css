@@ -317,6 +317,10 @@ html {
   margin: 0 auto;
 }
 
+.main-hidden-container {
+  margin: 20px 50px
+}
+
 .main-hidden-content h1 {
   color: #fff;
   font-size: 3.5rem
@@ -350,8 +354,52 @@ html {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  flex-wrap: wrap;
+}
+  
+.hidden-img-container img {
+  width: 250px;
 }
 
+/* hidden res */
+
+@media screen and (max-width: 1366px) {
+  .hidden-img-container img {
+    width: 215px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-hidden-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .main-hidden-content {
+    justify-content: center;
+    justify-content: center;
+  }
+
+  .main-hidden-content button {
+    font-size: 1.3rem;
+  }
+  .main-hidden-img {
+    height: 80vh;
+  }
+
+  .hidden-img-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .hidden-img-container img {
+    margin-top: 15px;
+  }
+} 
 /* .hidden-content-flex {
   max-width: 1200px;
   justify-content: space-between;
