@@ -306,7 +306,10 @@ html {
 .main-hidden-img {
   background-color: #202124;
   height: 50vh;
+}
 
+.main-hidden-img-flex {
+  margin: 0px 50px;
 }
 
 .main-hidden-content {
@@ -318,12 +321,12 @@ html {
 }
 
 .main-hidden-container {
-  margin: 20px 50px
+  margin: 20px auto;
 }
 
 .main-hidden-content h1 {
   color: #fff;
-  font-size: 3.5rem
+  font-size: 3.5rem;
 }
 
 .main-hidden-content button {
@@ -346,6 +349,7 @@ html {
   align-content: center;
   justify-content: center;
   height: 30vh;
+  margin: 0px auto;
 }
 
 .hidden-img-container {
@@ -356,9 +360,10 @@ html {
   margin: 0 auto;
   flex-wrap: wrap;
 }
-  
+
 .hidden-img-container img {
   width: 250px;
+  margin-top: 20px;
 }
 
 /* hidden res */
@@ -370,14 +375,39 @@ html {
 }
 
 @media screen and (max-width: 1024px) {
+  .main-hidden-img {
+    height: 170vh;
+  }
   .main-hidden-container {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
+  .hidden-img-container {
+    flex-direction: column;
+  }
+
+  .hidden-img-container img {
+    width: 450px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main-hidden-img {
+    height: 140vh;
+  }
+  .hidden-img-container img {
+    width: 350px;
+    margin-top: 15px;
+  }
 }
 
 @media screen and (max-width: 475px) {
+  .main-hidden-img {
+    height: 110vh;
+  }
   .main-hidden-content {
     justify-content: center;
     justify-content: center;
@@ -385,9 +415,6 @@ html {
 
   .main-hidden-content button {
     font-size: 1.3rem;
-  }
-  .main-hidden-img {
-    height: 80vh;
   }
 
   .hidden-img-container {
@@ -397,13 +424,10 @@ html {
   }
 
   .hidden-img-container img {
+    width: 250px;
     margin-top: 15px;
   }
-} 
-/* .hidden-content-flex {
-  max-width: 1200px;
-  justify-content: space-between;
-} */
+}
 
 #hidden-img {
   display: none;
