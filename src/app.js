@@ -26,12 +26,18 @@ listVideo.forEach((video) => {
 
 const buttonEl = document.getElementById("secretbutton");
 const imgEl = document.getElementById("hidden-img");
+const btnSelect = document.getElementById("secretbutton");
+const heigthChange = document.querySelector(".main-hidden-img");
 
 const toggleHiddenEl = (domElement) => {
   if (domElement.style.display === "none") {
     domElement.style.display = "block";
+    btnSelect.innerHTML = "remove content";
+    heigthChange.style.height = "55vh";
   } else {
     domElement.style.display = "none";
+    btnSelect.innerHTML = "More Content"; 
+    heigthChange.style.height = "32vh";
   }
 };
 
