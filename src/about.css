@@ -288,6 +288,9 @@ html {
 }
 
 @media screen and (max-width: 475px) {
+  .main-content-container {
+    height: 120vh;
+  }
   .pri-header-text {
     font-size: 1.5rem;
   }
@@ -320,17 +323,27 @@ html {
   align-items: center;
   justify-content: center;
   align-self: center;
-  gap: 50px;
+  gap: 25px;
+}
+
+.main-video h1,
+h2 {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 475px) {
+  .main-video-content-container {
+    height: 120vh;
+  }
   .main-video iframe {
     width: 300px;
-    height: 200PX;
+    height: 200px;
   }
-
-  .main-video-content-container {
-    height: 60vh;
+  .main-video h1,
+  h2 {
+    font-size: 2rem;
   }
 }
 
@@ -439,7 +452,7 @@ html {
 
 @media screen and (max-width: 475px) {
   .main-hidden-img {
-    height: 500vh;
+    height: 25vh;
   }
   .main-hidden-content {
     justify-content: center;
