@@ -289,7 +289,7 @@ html {
 
 @media screen and (max-width: 475px) {
   .main-content-container {
-    height: 120vh;
+    height: 95vh;
   }
   .pri-header-text {
     font-size: 1.5rem;

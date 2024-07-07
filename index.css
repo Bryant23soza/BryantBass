@@ -407,6 +407,11 @@ html {
 }
 
 @media screen and (max-width: 475px) {
+  .main { 
+    background-size: 600px;   
+    background-attachment: local;
+    background-position: 40% 80%;
+  }
   .main-content {
     max-width: 400px;
   }
