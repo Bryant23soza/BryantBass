@@ -240,7 +240,7 @@ html {
 }
 
 .main_container .main_video {
-  background: #fff;
+  background: #343a40;
   border-radius: 5px;
   padding: 10px;
 }
@@ -251,14 +251,14 @@ html {
 }
 
 .main_container .main_video .title {
-  color: #333;
+  color: #fff;
   font-size: 23px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .main_container .video_list {
-  background: #fff;
+  background: #343a40;
   border-radius: 5px;
   height: 94%;
   overflow-y: scroll;
@@ -287,7 +287,7 @@ html {
   display: flex;
   align-items: center;
   gap: 15px;
-  background: #f7f7f7;
+  background: #2c3136;
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
@@ -296,7 +296,7 @@ html {
 }
 
 .main_container .video_list .vid:hover {
-  background: #eee;
+  background: #ff0800;
 }
 
 .main_container .video_list .vid:active {
@@ -308,7 +308,7 @@ html {
 }
 
 .main_container .video_list .vid .title {
-  color: #333;
+  color: #fff;
   font-size: 17px;
 }
 

@@ -332,12 +332,40 @@ h2 {
   font-weight: bold;
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 1366px) {
   .main-video-content-container {
-    height: 120vh;
+    height: 150vh;
   }
   .main-video iframe {
-    width: 300px;
+    width: 650px;
+    height: 450px;
+  }
+  .main-video h1,
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-video-content-container {
+    height: 100vh;
+  }
+  .main-video iframe {
+    width: 450px;
+    height: 250px;
+  }
+  .main-video h1,
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .main-video-content-container {
+    height: 85vh;
+  }
+  .main-video iframe {
+    width: 350px;
     height: 200px;
   }
   .main-video h1,
@@ -411,17 +439,26 @@ h2 {
   margin-top: 20px;
 }
 
+.hidden-img-container video {
+  width: 260px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
 /* hidden res */
 
 @media screen and (max-width: 1366px) {
   .hidden-img-container img {
     width: 215px;
   }
+  .hidden-img-container video {
+    width: 230px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .main-hidden-img {
-    height: 170vh;
+    height: 30vh;
   }
   .main-hidden-container {
     display: flex;
@@ -434,14 +471,18 @@ h2 {
   }
 
   .hidden-img-container img {
-    width: 450px;
+    width: 350px;
     margin-top: 40px;
+  }
+
+  .hidden-img-container video {
+    width: 360px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .main-hidden-img {
-    height: 140vh;
+    height: 40vh;
   }
   .hidden-img-container img {
     width: 350px;
@@ -451,13 +492,9 @@ h2 {
 
 @media screen and (max-width: 475px) {
   .main-hidden-img {
-    height: 25vh;
+    height: 30vh;
   }
-  .main-hidden-content {
-    justify-content: center;
-    justify-content: center;
-  }
-
+  
   .main-hidden-content button {
     font-size: 1.3rem;
   }
@@ -469,8 +506,13 @@ h2 {
   }
 
   .hidden-img-container img {
-    width: 250px;
-    margin-top: 15px;
+    width: 240px;
+    margin-top: 35px;
+  }
+
+  .hidden-img-container video {
+    width: 240px;
+    margin-top: 35px;
   }
 }
 
