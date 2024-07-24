@@ -38,7 +38,7 @@ const toggleHiddenEl = (domElement) => {
     if (media.matches) {
       heigthChange.style.height = "190vh";
       if (mediaFour.matches) {
-        heigthChange.style.height = "125vh";
+        heigthChange.style.height = "165vh";
       }
     } else {
       heigthChange.style.height = "55vh";

@@ -343,6 +343,9 @@
     }
   }
   @media screen and (max-width: 475px) {
+    .main {
+      height: 160vh;
+    } 
     .heading {
       font-size: 23px;
     }
