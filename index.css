@@ -407,8 +407,8 @@ html {
 }
 
 @media screen and (max-width: 475px) {
-  .main { 
-    background-size: 600px;   
+  .main {
+    background-size: 600px;
     background-attachment: local;
     background-position: 40% 80%;
   }
@@ -566,6 +566,10 @@ html {
 }
 
 @media screen and (max-width: 475px) {
+  .video-section-container {
+    height: 100vh;
+  }
+
   .main-video-content {
     max-width: 400px;
   }
@@ -1014,6 +1018,10 @@ html {
 }
 
 @media screen and (max-width: 475px) {
+  .infor-main-one,
+  .infor-main-two {
+    height: 90vh;
+  }
   .info-container-one {
     gap: 10px;
   }
