@@ -700,7 +700,7 @@ html {
 
 @media screen and (max-width: 1920px) {
   .course-main {
-    height: 125vh;
+    height: 105vh;
   }
   .course-header-content-first {
     font-size: 2.3rem;
@@ -809,7 +809,7 @@ html {
 
 @media screen and (max-width: 1920px) {
   .infor-main-one {
-    height: 80vh;
+    height: 60vh;
   }
 }
 
