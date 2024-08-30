@@ -567,7 +567,7 @@ html {
 
 @media screen and (max-width: 475px) {
   .video-section-container {
-    height: 100vh;
+    height: 80vh;
   }
 
   .main-video-content {
@@ -1020,7 +1020,7 @@ html {
 @media screen and (max-width: 475px) {
   .infor-main-one,
   .infor-main-two {
-    height: 90vh;
+    height: 80vh;
   }
   .info-container-one {
     gap: 10px;
