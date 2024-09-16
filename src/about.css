@@ -332,6 +332,12 @@ h2 {
   font-weight: bold;
 }
 
+@media screen and (max-width: 1536px) {
+  .main-video-content-container {
+    height: 220vh;
+  }
+}
+
 @media screen and (max-width: 1366px) {
   .main-video-content-container {
     height: 150vh;
