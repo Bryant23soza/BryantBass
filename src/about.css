@@ -340,7 +340,7 @@ h2 {
 
 @media screen and (max-width: 1366px) {
   .main-video-content-container {
-    height: 150vh;
+    height: 220vh;
   }
   .main-video iframe {
     width: 650px;
