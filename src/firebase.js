@@ -22,11 +22,11 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 export const storage = getStorage(app);
 
-// const storageRef = firebase.storage().ref("images/firebasetest.jpg");
+const storageRef = firebase.storage().ref("images/firebasetest.jpg");
 
-// // Get the download URL for the image.
-// storageRef.getDownloadURL().then((url) => {
-//   // Use the download URL to display the image.
-//   const img = document.querySelector("#my-firebase");
-//   img.src = url;
-// });
+// Get the download URL for the image.
+storageRef.getDownloadURL().then((url) => {
+  // Use the download URL to display the image.
+  const img = document.querySelector("#my-firebase");
+  img.src = url;
+});
