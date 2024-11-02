@@ -33,6 +33,7 @@ const toggleHiddenEl = (domElement) => {
   if (domElement.style.display === "none") {
     domElement.style.display = "block";
     btnSelect.innerHTML = "remove content";
+    let mediaOne = window.matchMedia("(max-width: 1323px");
     let media = window.matchMedia("(max-width: 1024px");
     let mediaFour = window.matchMedia("(max-width: 475px");
     if (media.matches) {
