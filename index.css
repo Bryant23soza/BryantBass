@@ -222,8 +222,8 @@ html {
 .main {
   background-image: linear-gradient(
       to bottom,
-      rgb(0, 0, 0, 0.8),
-      rgb(0, 0, 0, 0.6)
+      rgb(0, 0, 0, 0.9),
+      rgb(0, 0, 0, 0.7)
     ),
     url("/public/imgs/bryantbass.jpg");
   background-size: cover;
