@@ -245,7 +245,7 @@ html {
 
 .main-content {
   margin: 0 20px;
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
 }
 
 /* main content animation */
