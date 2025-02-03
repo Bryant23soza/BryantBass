@@ -234,7 +234,7 @@ html {
   align-items: center;
   gap: 4rem;
   margin: 0 50px;
-  animation: textFadeIn 3s ease-in-out;
+  animation: textFadeIn 2s ease-in-out;
 }
 
 @keyframes textFadeIn {
