@@ -263,7 +263,7 @@
   
   @media screen and (max-width: 475px) {
     #hero {
-      height: 620vh;
+      height: 770vh;
     }
     .main_content h1 {
       font-size: 2rem;
@@ -277,7 +277,7 @@
   
     @media screen and (max-width: 393px) {
       #hero {
-        height: 700vh;
+        height: 870vh;
       }
     }
   /* Footer */
