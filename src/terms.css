@@ -223,7 +223,7 @@
     background-color: #202124;
     background-size: cover;
     background-position: center;
-    height: 240vh;
+    height: 345vh;
   }
   
   .hero-flex {
@@ -244,8 +244,12 @@
 
   .main_content {
     color: #fff;
+    font-size: 14px;
   }
   
+  .main_content, p  {
+    margin-bottom: 2rem;
+  }
   
   @media screen and (max-width: 1366px) {
     .main_content h1 {
@@ -259,7 +263,7 @@
   
   @media screen and (max-width: 475px) {
     #hero {
-      height: 570vh;
+      height: 620vh;
     }
     .main_content h1 {
       font-size: 2rem;
@@ -271,6 +275,11 @@
   }
     }
   
+    @media screen and (max-width: 393px) {
+      #hero {
+        height: 700vh;
+      }
+    }
   /* Footer */
   
   .border {
