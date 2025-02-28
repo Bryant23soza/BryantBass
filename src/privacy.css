@@ -259,7 +259,7 @@
   
   @media screen and (max-width: 475px) {
     #hero {
-      height: 1620vh;
+      height: 1460dvh;
     }
     .main_content h1 {
       font-size: 2rem;
