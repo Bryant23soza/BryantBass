@@ -223,7 +223,7 @@
     background-color: #202124;
     background-size: cover;
     background-position: center;
-    height: 670vh;
+    height: 670dvh;
   }
   
   .hero-flex {
@@ -259,7 +259,7 @@
   
   @media screen and (max-width: 475px) {
     #hero {
-      height: 1460svh;
+      height: 1460dvh;
     }
     .main_content h1 {
       font-size: 2rem;
@@ -274,7 +274,7 @@
 
   @media screen and (max-width: 393px) {
     #hero {
-      height: 1840vh;
+      height: 1840dvh;
     }
   }
   
