@@ -1118,3 +1118,10 @@ html {
   text-decoration: none;
   margin-left: 1rem;
 }
+
+@media screen and (max-width: 475px) {
+  .footer-container {
+    font-size: 14px;
+  }
+  
+}
