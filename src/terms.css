@@ -245,13 +245,22 @@
   .main_content {
     color: #fff;
     font-size: 14px;
-    margin: 0 30px;
+    margin: 2rem 2rem;
   }
   
   .main_content, p  {
     margin-bottom: 2rem;
   }
   
+  @media screen and (max-width: 1566px) {
+    #hero {
+      height: 420dvh;
+    }
+    .main_content input {
+      padding: 10px 10px;
+    }
+  }
+
   @media screen and (max-width: 1366px) {
     .main_content input {
       padding: 10px 10px;
