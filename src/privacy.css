@@ -244,14 +244,11 @@
 
   .main_content {
     color: #fff;
+    margin: 0 30px;
   }
   
   
   @media screen and (max-width: 1366px) {
-    .main_content h1 {
-      font-size: 2rem;
-    }
-  
     .main_content input {
       padding: 10px 10px;
     }
@@ -259,7 +256,7 @@
   
   @media screen and (max-width: 475px) {
     #hero {
-      height: 1460dvh;
+      height: 1790dvh;
     }
     .main_content h1 {
       font-size: 2rem;
@@ -294,7 +291,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 30dvh;
     width: 100%;
     gap: 5px;
   }

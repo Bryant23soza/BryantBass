@@ -13,7 +13,7 @@
   
   .navbar {
     background-color: #202124;
-    height: 8vh;
+    height: 8dvh;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -245,6 +245,7 @@
   .main_content {
     color: #fff;
     font-size: 14px;
+    margin: 0 30px;
   }
   
   .main_content, p  {
@@ -252,18 +253,26 @@
   }
   
   @media screen and (max-width: 1366px) {
-    .main_content h1 {
-      font-size: 2rem;
-    }
-  
     .main_content input {
       padding: 10px 10px;
     }
   }
   
+  @media screen and (max-width: 1024px) {
+    #hero {
+      height: 380dvh;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    #hero {
+      height: 410dvh;
+    }
+  }
+
   @media screen and (max-width: 475px) {
     #hero {
-      height: 660dvh;
+      height: 1000dvh;
     }
     .main_content h1 {
       font-size: 2rem;
@@ -275,11 +284,11 @@
   }
     }
   
-    @media screen and (max-width: 393px) {
+    /* @media screen and (max-width: 393px) {
       #hero {
         height: 870dvh;
       }
-    }
+    } */
   /* Footer */
   
   .border {
@@ -296,7 +305,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 30dvh;
     width: 100%;
     gap: 5px;
   }
