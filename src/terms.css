@@ -256,15 +256,10 @@
     #hero {
       height: 350dvh;
     }
-    /* .main_content input {
-      padding: 10px 10px;
-    } */
   }
 
   @media screen and (max-width: 1366px) {
-    /* .main_content input {
-      padding: 10px 10px;
-    } */
+   
   }
   
   @media screen and (max-width: 1024px) {
